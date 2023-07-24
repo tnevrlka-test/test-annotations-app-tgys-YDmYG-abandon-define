@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-agqz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-wfed-tenant/test-annotations-app-tgys/test-annotations-agqz@sha256:8eb8086a8a16eaaf2fb22011c1bdc13bcaf53f7bdae0598cf94872ab136fb257
+        name: my-nginx
+        resources: {}
+status: {}
