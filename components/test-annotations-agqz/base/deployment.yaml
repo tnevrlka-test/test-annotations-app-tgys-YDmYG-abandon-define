@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-agqz
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-wfed-tenant/test-annotations-app-tgys/test-annotations-agqz@sha256:8eb8086a8a16eaaf2fb22011c1bdc13bcaf53f7bdae0598cf94872ab136fb257
         name: my-nginx
         ports:
         - containerPort: 8080
